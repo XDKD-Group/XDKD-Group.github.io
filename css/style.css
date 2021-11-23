@@ -96,7 +96,8 @@ body.boxed {
     margin: 0;
     border-radius: 0; }
   body.boxed #full-container, body.boxed .header-bar, body.boxed .header-bar-wrap, body.boxed #scroll-progress {
-    width: auto; } }
+    width: auto; }
+}
 
 /* Custom Default Content Width */
 /* Space between Bootstrap columns */
@@ -505,17 +506,25 @@ input[type="submit"].form-control:focus {
   .section-title.text-center h2 {
     float: none;
     width: 100%;
-    font-size: 30px; }
+    font-size: 30px;
+  }
+
   .section-title.text-center p,
   .section-title.text-center .description {
     width: 100%;
     margin-top: 12px;
-    padding-left: 0; }
+    padding-left: 0;
+  }
+
   .section-title h2,
   .section-title .description,
   .section-title p {
-    width: 100%; } }
-
+    width: 100%;
+  }
+  .btn-spacer {
+    margin-left: 5px;
+  }
+}
 /* Center Vertical */
 .center-vertical .section-content > .container > .row {
   display: flex;
@@ -706,7 +715,8 @@ input[type="submit"].form-control:focus {
 @media (max-width: 320px) {
   .video-preview.vp-banner {
     width: 300px;
-    height: 200px; } }
+    height: 200px; }
+}
 
 /* Button Video */
 .btn-video {
@@ -1191,7 +1201,11 @@ input[type="submit"].form-control:focus {
 @media (max-width: 480px) {
   .btn.xx-large {
     padding: 6px 45px;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .btn-spacer {
+    margin-left: 0;
+  }
+}
 
 /*  [ 13 ] - Social Icons
 =========================== */
@@ -4578,4 +4592,10 @@ input[type="submit"].form-control, .btn.gradient {
   color: #222222;
   font-size: 20px;
   margin-left: 10px;
+}
+
+@media (min-width: 768px) {
+  .btn-spacer {
+    margin-left: 10px;
+  }
 }
