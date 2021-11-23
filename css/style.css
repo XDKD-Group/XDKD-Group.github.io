@@ -14,7 +14,7 @@
 /* Font Size Custom */
 /**
  *  styles.css file is divided as the following:
- *  
+ *
  *  ( 01 ) - General Settings
  *  ( 02 ) - General Contents
  *  ( 03 ) - Header
@@ -430,7 +430,7 @@ input[type="submit"].form-control:focus {
  * ( 02 ) - General Contents
  * -------------------------------------------------------------------------------
  *
- *  This part contains the basic general contents like box preview, image  
+ *  This part contains the basic general contents like box preview, image
  *  preview, flat section, parallax section .. etc.
  *
  * ------
@@ -2929,7 +2929,7 @@ html.scroll-lock {
  *    |
  *    |-->  [ 01 ] - Footer
  *    |-->  [ 02 ] - Footer Bars
- 
+
  */
 /*  [ 01 ] - Footer
 ===================== */
@@ -4570,3 +4570,12 @@ input[type="submit"].form-control, .btn.gradient {
     height: 880px; }
   .h-md-900 {
     height: 900px; } }
+
+.little-header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #222222;
+  font-size: 20px;
+  margin-left: 10px;
+}
